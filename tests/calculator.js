@@ -30,7 +30,7 @@ describe('demo calculator tests', () => {
 
         homepage.verifyResult('10')
         
-        browser.sleep(2000)
+        browser.sleep(3000)
 
         browser.driver.manage().window().setSize(1536, 824);
         
